@@ -1,3 +1,6 @@
+/*------------------ banner */
+
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -20,12 +23,11 @@ body{
     
 }
 
+
 /*-------------
  football-player
  
 ---------------*/
-
-
 
 
 main{
@@ -33,7 +35,6 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 .play img{
     /* margin-top: 20px; */
@@ -41,13 +42,16 @@ main{
     height: 256px;
     padding: 15px;
 }
+.play, h1, p{
+    margin: 20px;
+    
+}
 
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     padding: 70px;
     
-   
 }
 
 .play{
@@ -56,25 +60,30 @@ main{
     background-color: white;
     margin: 30px;
    /* filter: drop-shadow(0.25px 1px 2px rgb(141, 139, 139)); */
-    
- 
 }
 
-/*---- upper part of footer    */
+
+/*---- upper part of footer   
+------------------------ */
 
 .info{
     display: flex;
-    /* align-items: center; */
-    /* flex-wrap: wrap; */
-    width: 500px;
-    height: 500px;
-}
-.players, h1, p{
-    margin: 20px;
-}
-/* .info, .image{ */
+
     
 }
+
+.info, img{
+    width: 567px;
+    height: 427px;
+}
+/* .info, h1, p{
+    margin-right: 5px; */
+
+}
+.highlight{
+    margin: 20px;
+}
+
  
 /* -----footer  */
 
@@ -84,12 +93,12 @@ main{
     height: 110px;
     margin-top: 200px;
 }
-nav{
-    
-}
+
 .fab{
     width: 20px;
     height: 20px;
 }
+
+
 
 
