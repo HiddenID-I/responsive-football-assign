@@ -1,0 +1,95 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    background-color: rgb(42, 42, 172);
+    display: flex;
+    justify-content: space-between;
+    
+}
+.h1{
+    /* color: white; */
+    font-size: 10px;
+    padding: 50px;
+    margin-left: 20px;
+}
+.banner, h3{
+    /* color: white; */
+    font-size: 10px;
+    padding: 50px;
+    
+}
+
+/*-------------
+ football-player
+ 
+---------------*/
+
+
+
+
+main{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.play img{
+    /* margin-top: 20px; */
+    width: 300px;
+    height: 256px;
+    padding: 15px;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 70px;
+    
+   
+}
+
+.play{
+    width: 330px;
+    height: 474px;
+    background-color: white;
+    margin: 30px;
+   /* filter: drop-shadow(0.25px 1px 2px rgb(141, 139, 139)); */
+    
+ 
+}
+
+/*---- upper part of footer    */
+
+.info{
+    display: flex;
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    width: 500px;
+    height: 500px;
+}
+.players, h1, p{
+    margin: 20px;
+}
+/* .info, .image{ */
+    
+}
+ 
+/* -----footer  */
+
+
+#photo{
+    width: 483px;
+    height: 110px;
+    margin-top: 200px;
+}
+nav{
+    
+}
+.fab{
+    width: 20px;
+    height: 20px;
+}
+
+
